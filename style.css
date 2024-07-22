@@ -1,0 +1,50 @@
+html{
+    background-color: rgb(0, 255, 128);
+}
+header{
+    position: relative;
+    background-color: bisque;
+    height: 180px;
+    width: 1200px; 
+
+}
+a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    display: block;
+    unicode-bidi: isolate;
+    position: absolute;
+    left: 20%;
+}
+.img-header{
+    height: 170px;
+    width: 150px;
+    position: absolute;
+    margin-left: 1%;
+}
+.upstairs-div, .center-div,.lower-div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px; 
+}
+.card-left, .card-middle, .card-right {
+    flex: 1;
+    margin: 0 10px;
+}
+.img-div, .img-animatecafe, .img-SF,.img-Bangkok4cut,.img-LET {
+    height: 170px;
+    width: 150px;
+    margin-bottom: 20px; 
+}
+h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.a-animate, .a-animatecafe, .a-UESTBOARDGAMECAFE, .a-SF ,.a-Bangkok4cut,.a-LET,.a-MoshiMoshi,.a-ChaTraMue{
+    display: block;
+    margin-top: 10px;
+    color: blue;
+    text-decoration: underline;
+}
